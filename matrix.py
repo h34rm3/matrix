@@ -13,6 +13,14 @@ for i in range(m):
 #инициализация матрицы
 
 #обработкаисортировка матрицы
+print("Исходная матрица:")
+for row in matrix:
+    print(row)
 
+for i in range(len(matrix)):
+    if i % 2 == 0:
+        matrix[i].sort()
 
-#обработкаисортировка матрицы
+print("Матрица с отсортированными четными строками:")
+for row in matrix:
+    print(row)
